@@ -1,0 +1,12 @@
+{
+  "name": "freewall",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/kombai/freewall",
+  "version": "1.0.6",
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
+  },
+  "ambientDevDependencies": {
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  }
+}
