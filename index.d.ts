@@ -210,6 +210,15 @@ interface Freewall {
     setHoles(hole: any): void;
 
     /**
+     *  Sort the Bricks
+     *  Example:
+     *  wall.sortBy(function(itemA: Element, itemB: Element) {
+     *      return $(itemB).width() - $(itemA).width();
+     *  });
+     */
+     sortBy(func: Function): Freewall;
+
+    /**
      *  Made all block to show
      */
     unFilter(): void;
